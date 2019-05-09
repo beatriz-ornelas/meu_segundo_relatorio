@@ -3,35 +3,11 @@ title: "Meu segundo relatório R"
 author: "Beatriz Ornelas"
 output: github_document
 ---
-Vamos mostrar aqui alguns códigos e funções do R. 
 
-Primero é necessário instalar os pacotes que iremos utilizar e depois carregá-los. 
+# Aqui estão meus relatórios
 
-Para carregar o pacote basta usar o comando library. Vamos carregar os pacotes tidyverse e gapminder. 
+clique [aqui!](https://beatriz-ornelas.github.io/meu_segundo_relatorio/meu_segundo_relatorio.html)
 
-```{r,message=FALSE}
-library("tidyverse")
-library("gapminder")
-```
+##
 
-O pacote gapminder traz um dataset. Vamos ver. 
-
-Primeiro vamos identificar as 6 primeiras linhas do dataset gapminder. 
-
-```{r}
-
-head(gapminder)
-
-```
-
-Hum. Temos já algumas informações relevantes. 
-
-Agora vamos ver quantas linhas no total tem o dataset gapminder. 
-
-```{r}
-
-nrow(gapminder)
-
-```
-
-A partir daqui podemos trabalhar com outras funções e informações. 
+###
