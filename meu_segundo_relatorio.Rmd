@@ -1,0 +1,37 @@
+---
+title: "Meu segundo relatório R"
+output: html_document
+---
+
+Vamos mostrar aqui alguns códigos e funções do R. 
+
+Primero é necessário instalar os pacotes que iremos utilizar e depois carregá-los. 
+
+Para carregar o pacote basta usar o comando library. Vamos carregar os pacotes tidyverse e gapminder. 
+
+```{r,message=FALSE}
+library("tidyverse")
+library("gapminder")
+```
+
+O pacote gapminder traz um dataset. Vamos ver. 
+
+Primeiro vamos identificar as 6 primeiras linhas do dataset gapminder. 
+
+```{r}
+
+head(gapminder)
+
+```
+
+Hum. Temos já algumas informações relevantes. 
+
+Agora vamos ver quantas linhas no total tem o dataset gapminder. 
+
+```{r}
+
+nrow(gapminder)
+
+```
+
+A partir daqui podemos trabalhar com outras funções e informações. 
