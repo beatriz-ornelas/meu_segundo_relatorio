@@ -1,0 +1,30 @@
+---
+title: "teste de formatação"
+output: 
+rmdformats::readthedown: 
+  toc: true
+  toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library("rmdformats")
+```
+
+#Introdução
+
+Vamos começar agora a mexer com seções e subseções. 
+
+#Seção 1
+
+Basta colocar um hashtag. 
+
+##Subseção 1
+
+Aqui é só colocar dois hashtags. 
+
+#Seção 2
+
+E assim em diante. 
